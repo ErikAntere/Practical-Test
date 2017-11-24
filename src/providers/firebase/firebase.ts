@@ -17,17 +17,6 @@ export class FirebaseProvider {
  
   constructor(public afd: AngularFireDatabase) { }
  
-  getShoppingItems() {
-    return this.afd.list('/shoppingItems/');
-  }
- 
-  addItem(name) {
-    this.afd.list('/shoppingItems/').push(name);
-  }
- 
-  removeItem(id) {
-    this.afd.list('/shoppingItems/').remove(id);
-  }
   public login(credentials) {
     if (credentials.email === null || credentials.password === null) {
       return FirebaseListObservable.throw("Please insert credentials");
