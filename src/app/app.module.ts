@@ -14,12 +14,12 @@ import { AngularFireModule } from 'angularfire2';
 import { FirebaseProvider } from './../providers/firebase/firebase';
  
 const firebaseAuth = {
-  apiKey: "AIzaSyAUDhYC6DnjyVuWrFcfp09o8p7WhOgwVgQ",
-  authDomain: "labwork-5.firebaseapp.com",
-  databaseURL: "https://labwork-5.firebaseio.com/",
-  projectId: "labwork-5",
-  storageBucket: "labwork-5.appspot.com",
-  messagingSenderId: "382423527184"
+  apiKey: "AIzaSyDYhQHfq2KSvdvPIzOE_Od81LUzdpMlbEg",
+  authDomain: "practical-test-e0208.firebaseapp.com",
+  databaseURL: "https://practical-test-e0208.firebaseio.com",
+  projectId: "practical-test-e0208",
+  storageBucket: "practical-test-e0208.appspot.com",
+  messagingSenderId: "1071057024569"
   };
  
 @NgModule({

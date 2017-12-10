@@ -10,11 +10,13 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 /**Erik Antere 1601554 Here are the tabs on the bottom of the pages */
 export class TabsPage {
   tab1Root='HomePage';
-  tab2Root='CvPage';
-  tab3Root='AboutPage';
-  tab4Root='ProjectworkPage';
-  tab5Root='ActivitiesPage';
-  tab6Root='ContactPage';
+  tab2Root='ProfilePage';
+  tab3Root='SoftPage';
+  tab4Root='TechPage';
+  tab5Root='ProjectPage';
+  tab6Root='ProjectworkPage';
+  tab7Root='ActivitiesPage';
+  tab8Root='ContactPage';
   myIndex: number;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {

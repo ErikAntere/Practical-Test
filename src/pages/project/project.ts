@@ -4,16 +4,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-projectwork',
-  templateUrl: 'projectwork.html',
+  selector: 'page-project',
+  templateUrl: 'project.html',
 })
-export class ProjectworkPage {
+export class ProjectPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad ProjectworkPage');
+    console.log('ionViewDidLoad ProjectPage');
   }
 
 }

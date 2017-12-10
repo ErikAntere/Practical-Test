@@ -4,16 +4,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-cv',
-  templateUrl: 'cv.html',
+  selector: 'page-soft',
+  templateUrl: 'soft.html',
 })
-export class CvPage {
+export class SoftPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad CvPage');
+    console.log('ionViewDidLoad SoftPage');
   }
 
 }
